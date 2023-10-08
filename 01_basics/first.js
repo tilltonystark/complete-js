@@ -8,4 +8,6 @@ if(true) {
     var branch = "ECE";
 }
 
-console.table([studentName, rollNo, branch]);
+// console.table([studentName, rollNo, branch]);
+let myDate = new Date(2002, 1, 25);
+console.log(myDate.toDateString());
